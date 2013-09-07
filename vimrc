@@ -29,6 +29,7 @@ Bundle "git://github.com/slim-template/vim-slim.git"
 Bundle "git://github.com/leshill/vim-json.git"
 Bundle "git://github.com/tmatilai/vim-monit.git"
 Bundle "git://github.com/t9md/vim-chef.git"
+Bundle "git://github.com/Townk/vim-autoclose.git"
 Bundle "romanvbabenko/vim-asciidoc"
 
 Bundle "wgibbs/vim-irblack"
