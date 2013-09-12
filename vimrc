@@ -144,6 +144,12 @@ if filereadable(".vimrc.local")
   source .vimrc.local
 endif
 
+" highlight the status bar when in insert mode
+if version >= 700
+  au InsertEnter * hi StatusLine ctermfg=235 ctermbg=2
+  au InsertLeave * hi StatusLine ctermbg=240 ctermfg=12
+endif
+
 " Rails shortcuts
 command! Rapplication :e config/application.rb
 command! Rroutes :e config/routes.rb
